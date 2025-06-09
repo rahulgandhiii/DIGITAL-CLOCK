@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    height: 100vh;
+}
+
+h2{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin-block: 30px;
+    font-size: 50px;
+}
+
+.clock{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec{
+    display: flex;
+    flex-direction: column;
+    margin-inline: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    font-size: 20px;
+}
+
+#hour, #minutes, #seconds{
+    font-size: 150px;
+}
